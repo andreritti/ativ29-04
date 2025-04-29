@@ -1,8 +1,18 @@
+/* Centralizar todo o conteúdo da página */
 body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    padding: 20px;
+    padding: 0;
     background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Usa 100% da altura da tela */
+    margin: 0; /* Remove a margem padrão */
+}
+
+.container {
+    text-align: center;
 }
 
 button {
@@ -12,11 +22,14 @@ button {
     background-color: #3498db;
     color: white;
     border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9; /* Altera a cor ao passar o mouse */
 }
 
 #DIV {
     font-size: 40px;
     margin: 20px;
-    justify-content: center;
-    align-items: center;
 }
