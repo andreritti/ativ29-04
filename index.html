@@ -10,16 +10,15 @@
 
 
     <h1>Contador</h1>
-    <p id="contador">0</p>
     <button onclick="maisum()">+1</button>
 
-
+    <div id="DIV">Placar = 0</div>
 
     <script>
         let Placar = 0;
         function maisum() {
             placar += 1;
-            document.getElementById("contador").innerText = "placar = " + placar;
+            document.getElementById("DIV").innerText = "placar = " + placar;
         }
     </script>
 
