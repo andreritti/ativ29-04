@@ -13,11 +13,13 @@
     <p id="contador">0</p>
     <button onclick="maisum()">+1</button>
 
+
+
     <script>
-        let contagem 
-        function maisum(){
-            contagem+1
-            document.getElementById("contador").innerText = contagem;
+        let Placar = 0;
+        function maisum() {
+            placar += 1;
+            document.getElementById("contador").innerText = "placar = " + placar;
         }
     </script>
 
