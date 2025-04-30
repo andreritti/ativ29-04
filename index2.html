@@ -3,10 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atividade 2</title>
+    <title>Atividade 1</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+
+    <h1>Contador</h1>
+    <button onclick="somar()">+1</button>
+    <button onclick="subtrair()">-1</button>
+
+    <div id="DIV">Placar = 0</div>
+    <div id="diminuir">Placar = 0</div>
+
+    <script>
+        let placar = 0;
+        function somar() {
+            placar++;
+            document.getElementById("DIV").innerText = "Placar = " + placar;
+        }
+        let placar = 0;
+        function subtrair {
+            placar--;
+            document.getElementById("diminuir").innerText = "Placar = " + placar;
+        }
+    </script>
 </body>
 </html>
